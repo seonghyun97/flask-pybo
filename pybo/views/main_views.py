@@ -7,6 +7,7 @@ bp = Blueprint('main',__name__,url_prefix='/')
 def hello_pybo():
     return 'hello, Pybo!'
 
+@bp.route('/')
 def index(request):
     current_app.logger.info("INFO 레벨로 출력")
     return redirect(url_for('question._list'))

@@ -29,8 +29,8 @@ dictConfig({
 
 SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(
     user='dbmasteruser',
-    pw=' Wv~?x8s$B>+$0>3fg8T|ux:lbk}c&DH7 ',
-    url=' ls-60bd725f04b3f1f2544bb1b1cf438502ca63374a.cizmmhwwxovg.ap-northeast-2.rds.amazonaws.com',
+    pw=' 12345678 ',
+    url=' ls-60bd725f04b3f1f2544bb1b1cf438502ca63374a.cizmmhwwxovg.ap-northeast-2.rds.amazonaws.com ',
     db='flask_pybo'
 )
 SQLALCHEMY_TRACK_MODIFICATIONS = False
